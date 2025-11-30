@@ -1,0 +1,174 @@
+2025-11-24 02:58:37.916354-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS [42000-232]
+2025-11-24 02:58:45.002713-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS [42000-232]
+2025-11-24 02:58:49.394799-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE [42000-232]
+2025-11-24 02:58:54.145775-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA [42000-232]
+2025-11-24 02:58:57.867021-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES [42000-232]
+2025-11-24 02:59:00.442788-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES [42000-232]
+2025-11-24 02:59:03.015884-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES INFORMATION_SCHEMA.CHECK_CONSTRAINTS"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES INFORMATION_SCHEMA.CHECK_CONSTRAINTS [42000-232]
+2025-11-24 02:59:05.360804-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.COLUMN_PRIVILEGES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.COLUMN_PRIVILEGES [42000-232]
+2025-11-24 02:59:08.850358-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA[*].COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.ROLES"; SQL statement:
+SELECT * FROM INFORMATION_SCHEMA.TABLES INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.COLUMNS INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.CONSTANTS INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE INFORMATION_SCHEMA.SCHEMATA INFORMATION_SCHEMA.SESSION_STATE INFORMATION_SCHEMA.ROLES INFORMATION_SCHEMA.ENUM_VALUES INFORMATION_SCHEMA.CHECK_CONSTRAINTS INFORMATION_SCHEMA.COLUMN_PRIVILEGES INFORMATION_SCHEMA.ROLES [42000-232]
+2025-11-30 07:57:41.438559-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]selecet *from cliente"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+selecet *from cliente [42001-232]
+2025-11-30 07:58:13.207119-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select * from cliente [42104-232]
+2025-11-30 08:00:02.525335-03:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Wrong user name or password [28000-232]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:291)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1038)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 54 more
+2025-11-30 08:00:30.188016-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+SELECT * FROM cliente [42104-232]
+2025-11-30 08:01:20.415704-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM clientes [42104-232]
+2025-11-30 08:01:21.976728-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM clientes [42104-232]
+2025-11-30 08:04:14.205718-03:00 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Wrong user name or password [28000-232]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:344)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:124)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:291)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.login(WebApp.java:1038)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 54 more
+2025-11-30 08:04:41.010650-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+Select *from Clientes [42104-232]
+2025-11-30 08:07:29.649748-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+select *from clientes [42104-232]
+2025-11-30 08:07:33.238704-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found (this database is empty); SQL statement:
+select *from cliente [42104-232]
+2025-11-30 08:07:36.128232-03:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTES" not found (this database is empty); SQL statement:
+select *from clientes [42104-232]
