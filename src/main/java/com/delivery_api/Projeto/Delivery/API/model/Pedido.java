@@ -2,6 +2,7 @@ package com.delivery_api.Projeto.Delivery.API.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -32,13 +33,28 @@ public class Pedido {
 
     private String observacoes;
 
-    @Column(name = "cliente_id")
-    private Long clienteId;
+    @Column(name = "endereco_entrega")
+    private String enderecoEntrega;
+
+    @Column(name = "taxa_entrega")
+    private BigDecimal taxaEntrega;
+
+    private String cep;
+
+    /*@OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL)
+    private List<ItemPedido> itens;*/
+    @Transient // Hibernate ignora esta lista na persistência
+    private List<ItemPedido> itens;
+
+    @Column(name = "itens_detalhes", columnDefinition = "CLOB") // Novo campo para o JSON
+    private String itensDetalhesJson;
+
+    @ManyToOne
+    @JoinColumn(name = "cliente_id")
+    private Cliente cliente;
 
     @ManyToOne
     @JoinColumn(name = "restaurante_id")
     private Restaurante restaurante;
-
-    private String itens;
 
 }

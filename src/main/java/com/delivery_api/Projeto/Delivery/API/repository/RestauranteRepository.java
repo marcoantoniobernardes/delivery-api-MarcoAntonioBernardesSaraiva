@@ -9,13 +9,21 @@ import com.delivery_api.Projeto.Delivery.API.projection.RelatorioVendas;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import java.math.BigDecimal;
 
 @Repository
 public interface RestauranteRepository extends JpaRepository <Restaurante, Long>{
+
+
+    Page<Restaurante> findByCategoriaAndAtivo(String categoria, Boolean ativo, Pageable pageable);
     // Buscar por nome
     Optional<Restaurante> findByNome(String nome);
+
+    //buscar por nome e ativo
+    Restaurante findByNomeAndAtivoTrue(String nome);
 
     // Buscar restaurantes ativos
     List<Restaurante> findByAtivoTrue();
@@ -37,4 +45,6 @@ public interface RestauranteRepository extends JpaRepository <Restaurante, Long>
             "LEFT JOIN Pedido p ON r.id = p.restaurante.id " +
             "GROUP BY r.id, r.nome")
     List<RelatorioVendas> relatorioVendasPorRestaurante();
+
+    List<Restaurante> findByTaxaEntregaBetween(BigDecimal precoMinimo, BigDecimal precoMaximo);
 }

@@ -1,6 +1,3 @@
--- Dados de exemplo para testes
--- Arquivo: src/main/resources/data.sql
-
 -- Inserir clientes
 INSERT INTO clientes (nome, email, telefone, endereco, data_cadastro, ativo) VALUES
 ('João Silva', 'joao@email.com', '(11) 99999-1111', 'Rua A, 123 - São Paulo/SP', CURRENT_TIMESTAMP, true),
@@ -8,10 +5,10 @@ INSERT INTO clientes (nome, email, telefone, endereco, data_cadastro, ativo) VAL
 ('Pedro Oliveira', 'pedro@email.com', '(11) 99999-3333', 'Rua C, 789 - São Paulo/SP', CURRENT_TIMESTAMP, true);
 
 -- Inserir restaurantes
-INSERT INTO restaurantes (nome, categoria, endereco, telefone, taxa_entrega, avaliacao, ativo) VALUES
-('Pizzaria Bella', 'Italiana', 'Av. Paulista, 1000 - São Paulo/SP', '(11) 3333-1111', 5.00, 4.5, true),
-('Burger House', 'Hamburgueria', 'Rua Augusta, 500 - São Paulo/SP', '(11) 3333-2222', 3.50, 4.2, true),
-('Sushi Master', 'Japonesa', 'Rua Liberdade, 200 - São Paulo/SP', '(11) 3333-3333', 8.00, 4.8, true);
+INSERT INTO restaurantes (nome, categoria, endereco, cep, telefone, taxa_entrega, avaliacao, ativo) VALUES
+('Pizzaria Bella', 'Italiana', 'Av. Paulista, 1000 - São Paulo/SP', '01311-200', '(11) 3333-1111', 5.00, 4.5, true),
+('Burger House', 'Hamburgueria', 'Rua Augusta, 500 - São Paulo/SP', '01305-000', '(11) 3333-2222', 3.50, 4.2, true),
+('Sushi Master', 'Japonesa', 'Rua Liberdade, 200 - São Paulo/SP', '01503-001', '(11) 3333-3333', 8.00, 4.8, true);
 
 -- Inserir produtos
 INSERT INTO produtos (nome, descricao, preco, categoria, disponivel, restaurante_id) VALUES
@@ -31,7 +28,24 @@ INSERT INTO produtos (nome, descricao, preco, categoria, disponivel, restaurante
 ('Temaki Atum', 'Temaki de atum com cream cheese', 15.90, 'Temaki', true, 3);
 
 -- Inserir pedidos de exemplo
-INSERT INTO pedidos (numero_pedido, data_pedido, status, valor_total, observacoes, cliente_id, restaurante_id, itens) VALUES
-('PED1234567890', CURRENT_TIMESTAMP, 'PENDENTE', 54.80, 'Sem cebola na pizza', 1, 1, 'Pizza Margherita, Pizza Calabresa'),
-('PED1234567891', CURRENT_TIMESTAMP, 'CONFIRMADO', 41.80, '', 2, 2, 'X-Burger, Batata Frita'),
-('PED1234567892', CURRENT_TIMESTAMP, 'ENTREGUE', 78.80, 'Wasabi à parte', 3, 3, 'Combo Sashimi, Hot Roll Salmão, Temaki Atum');
+INSERT INTO pedidos (
+    numero_pedido,
+    data_pedido,
+    status,
+    valor_total,
+    observacoes,
+    endereco_entrega,
+    cep,
+    taxa_entrega,
+    cliente_id,
+    restaurante_id,
+    itens
+) VALUES
+-- Pedido 1: Cliente 1 (Rua A) / Restaurante 1 (Taxa 5.00)
+('PED1234567890', CURRENT_TIMESTAMP, 'PENDENTE', 54.80, 'Sem cebola na pizza', 'Rua A, 123 - São Paulo/SP', '01000-001', 5.00, 1, 1, 'Pizza Margherita, Pizza Calabresa'),
+
+-- Pedido 2: Cliente 2 (Rua B) / Restaurante 2 (Taxa 3.50)
+('PED1234567891', CURRENT_TIMESTAMP, 'CONFIRMADO', 41.80, '', 'Rua B, 456 - São Paulo/SP', '01000-002', 3.50, 2, 2, 'X-Burger, Batata Frita'),
+
+-- Pedido 3: Cliente 3 (Rua C) / Restaurante 3 (Taxa 8.00)
+('PED1234567892', CURRENT_TIMESTAMP, 'ENTREGUE', 78.80, 'Wasabi à parte', 'Rua C, 789 - São Paulo/SP', '01000-003', 8.00, 3, 3, 'Combo Sashimi, Hot Roll Salmão, Temaki Atum');

@@ -1,4 +1,4 @@
-package com.delivery_api.Projeto.Delivery.API.exceptions;
+package com.delivery_api.Projeto.Delivery.API.exception;
 
 import java.time.LocalDateTime;
 
