@@ -49,3 +49,22 @@ INSERT INTO pedidos (
 
 -- Pedido 3: Cliente 3 (Rua C) / Restaurante 3 (Taxa 8.00)
 ('PED1234567892', CURRENT_TIMESTAMP, 'ENTREGUE', 78.80, 'Wasabi à parte', 'Rua C, 789 - São Paulo/SP', '01000-003', 8.00, 3, 3, 'Combo Sashimi, Hot Roll Salmão, Temaki Atum');
+
+--inserir itens pedido
+INSERT INTO item_pedido (quantidade, preco_unitario, subtotal, pedido_id, produto_id) VALUES
+(1, 35.90, 35.90, 1, 1), -- Pizza Margherita no pedido 1
+(1, 18.90, 18.90, 1, 2), -- Pizza Calabresa no pedido 1
+
+(1, 18.90, 18.90, 2, 4), -- X-Burger no pedido 2
+(1, 12.90, 12.90, 2, 6), -- Batata Frita no pedido 2
+
+(1, 45.90, 45.90, 3, 7), -- Combo Sashimi no pedido 3
+(1, 32.90, 32.90, 3, 8), -- Hot Roll Salmão no pedido 3
+(1, 15.90, 15.90, 3, 9); -- Temaki Atum no pedido 3
+-- Inserir usuários
+INSERT INTO usuarios (id, nome, email, senha, role, ativo, data_criacao , restaurante_id) VALUES
+(1, 'Admin Sistema', 'admin@delivery.com', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iKXulpZR8J4OY6Nd4EMCFyZw4ufC', 'ADMIN', 1, '2025-07-31 00:00:00', NULL),
+(2, 'João Cliente', 'joao@email.com', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iKXulpZR8J4OY6Nd4EMCFyZw4ufC', 'CLIENTE', 1, '2025-07-31 00:00:00', NULL),
+(3, 'Maria Cliente', 'maria@email.com', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iKXulpZR8J4OY6Nd4EMCFyZw4ufC', 'CLIENTE', 1, '2025-07-31 00:00:00', NULL),
+(4, 'Pizza Palace', 'pizza@palace.com', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iKXulpZR8J4OY6Nd4EMCFyZw4ufC', 'RESTAURANTE', 1, '2025-07-31 00:00:00', 1),
+(5, 'Burger King', 'burger@king.com', '$2a$10$N.zmdr9k7uOCQb376NoUnuTJ8iKXulpZR8J4OY6Nd4EMCFyZw4ufC', 'RESTAURANTE', 1, '2025-07-31 00:00:00', 2);

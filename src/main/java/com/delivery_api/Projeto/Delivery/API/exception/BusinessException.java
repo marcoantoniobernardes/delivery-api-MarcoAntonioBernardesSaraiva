@@ -21,6 +21,9 @@ public class BusinessException extends RuntimeException {
         this.errorCode = errorCode;
     }
 
+    public BusinessException(String usuárioInválido, String s) {
+    }
+
     // Getter para ErrorCode
     public String getErrorCode() {
         return errorCode;

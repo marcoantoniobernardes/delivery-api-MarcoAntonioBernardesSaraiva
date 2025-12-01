@@ -48,3 +48,30 @@ CREATE TABLE "pedidos" (
     FOREIGN KEY (cliente_id) REFERENCES "clientes"(id),
     FOREIGN KEY (restaurante_id) REFERENCES "restaurantes"(id)
 );
+CREATE TABLE "usuarios" (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    senha VARCHAR(100) NOT NULL, -- Deve ser grande o suficiente para o hash BCrypt
+    role VARCHAR(20) NOT NULL,    -- Para armazenar o ENUM (ADMIN, CLIENTE, etc.)
+    ativo BOOLEAN,
+    data_criacao TIMESTAMP,
+
+    restaurante_id BIGINT,
+
+    FOREIGN KEY (restaurante_id) REFERENCES "restaurantes"(id)
+);
+CREATE TABLE "item_pedido" (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+
+    quantidade INT NOT NULL,
+    preco_unitario DECIMAL(10,2) NOT NULL,
+    subtotal DECIMAL(10,2) NOT NULL,
+
+    pedido_id BIGINT NOT NULL,
+    produto_id BIGINT NOT NULL,
+
+    FOREIGN KEY (pedido_id) REFERENCES "pedidos"(id),
+    FOREIGN KEY (produto_id) REFERENCES "produtos"(id)
+);
+ALTER TABLE usuarios ALTER COLUMN id RESTART WITH 10;
